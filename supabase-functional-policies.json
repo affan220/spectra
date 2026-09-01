@@ -1,0 +1,1 @@
+{"name":"spectra_functional_policies","project_id":"gioupyuaczrzvcjcuedh","query":"create policy \"Public insert analyses\" on public.analyses for insert with check (true); create policy \"Public insert workflow runs\" on public.workflow_runs for insert with check (true); create policy \"Public insert model feedback\" on public.model_feedback for insert with check (true);"}

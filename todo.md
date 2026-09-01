@@ -17,3 +17,14 @@
 - Use only the specified navy, white/off-white, and restrained orange visual family, with restrained status colors.
 - Do not fabricate reviews, ratings, or testimonials.
 - Keep the interface precise, breathable, and government/aerospace-laboratory oriented rather than flashy or card-heavy.
+
+## Functional Upgrade
+
+- [ ] Implement live file selection, drag-and-drop, supported-format handling, metadata inspection, and upload status.
+- [ ] Add real browser-side signal parsing where supported and clearly label backend-required formats.
+- [ ] Replace the processing-volume line chart with a deterministic spectrogram/time-frequency heatmap driven by the active signal.
+- [ ] Make all eight workflow steps advance through meaningful states with validation, preprocessing, detection, feature extraction, AI/DSP comparison, confidence decisions, and re-analysis.
+- [ ] Persist analyses, workflow runs, and analyst feedback to the separate Supabase project.
+- [ ] Add report generation, JSON/CSV export, and analyst feedback actions.
+- [ ] Make dashboard KPIs, recent analyses, signals, reports, and model-learning views use live application state.
+- [ ] Validate keyboard/mobile navigation, theme switching, error states, and production build.
