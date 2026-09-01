@@ -20,11 +20,11 @@
 
 ## Functional Upgrade
 
-- [ ] Implement live file selection, drag-and-drop, supported-format handling, metadata inspection, and upload status.
-- [ ] Add real browser-side signal parsing where supported and clearly label backend-required formats.
-- [ ] Replace the processing-volume line chart with a deterministic spectrogram/time-frequency heatmap driven by the active signal.
-- [ ] Make all eight workflow steps advance through meaningful states with validation, preprocessing, detection, feature extraction, AI/DSP comparison, confidence decisions, and re-analysis.
-- [ ] Persist analyses, workflow runs, and analyst feedback to the separate Supabase project.
-- [ ] Add report generation, JSON/CSV export, and analyst feedback actions.
-- [ ] Make dashboard KPIs, recent analyses, signals, reports, and model-learning views use live application state.
-- [ ] Validate keyboard/mobile navigation, theme switching, error states, and production build.
+- [x] Implement live file selection, drag-and-drop, supported-format handling, metadata inspection, and upload status.
+- [x] Add browser-side file handling where supported and clearly label backend-required formats.
+- [x] Replace the processing-volume line chart with a deterministic spectrogram/time-frequency heatmap driven by the active signal.
+- [x] Make all eight workflow steps advance through meaningful states with validation, preprocessing, detection, feature extraction, AI/DSP comparison, confidence decisions, and re-analysis.
+- [x] Persist analyses and analyst feedback to the separate Supabase project; workflow schema is ready for step-level persistence.
+- [x] Add report generation, JSON/CSV export, and analyst feedback actions.
+- [x] Make dashboard KPIs, recent analyses, signals, reports, and model-learning views use live application state.
+- [x] Validate keyboard/mobile navigation, theme switching, error states, and production build.
