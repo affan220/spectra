@@ -38,3 +38,10 @@
 - [x] Complete missing navigation destinations and visible controls with meaningful views or actions.
 - [x] Add deterministic spectrogram/demo behavior and ensure backend-required formats are clearly labeled.
 - [x] Validate interactions, responsive layouts, no-overflow behavior, type checks, production build, and final visual quality.
+
+## Space-Technology UI Correction
+
+- [x] Remove the remaining large white analysis canvas and unify dashboard, spectrogram, workflow, reports, and result surfaces under the dark space-tech environment.
+- [x] Rebalance visual semantics around cyan RF/DSP, violet AI/ML, and restrained orange attention/CTA accents.
+- [x] Add subtle orbital curves, telemetry-grid texture, integrated mission-control depth, and responsive dark layouts.
+- [x] Verify desktop and mobile screenshots after the visual correction.
