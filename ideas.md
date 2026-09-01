@@ -68,3 +68,10 @@ The site should include a clean login view, dashboard console, signal analysis w
 ## Style Decisions
 
 The primary console frame uses a deep navy navigation and header shell; light surfaces are reserved for active analysis, tables, charts, and reports. The SPECTRA identity is carried by the nested spectrum-arc calibration-bar mark and custom-spaced wordmark in the application frame. Orange `#F58220` is reserved for active workflow state, primary actions, progress, and important signal events; it is not used as a decorative glow or general-purpose fill.
+
+
+## Style Decisions — Premium Refinement
+
+- Orange `#F58220` is the activation color for primary actions, active navigation, workflow progression, and decisive signal events; cyan remains for telemetry and signal visualization, while violet marks AI intelligence.
+- The console uses a deep-space navy mission-control shell around selective off-white analysis-paper surfaces so charts, tables, reports, and evidence read as a lab workstation rather than a generic dark dashboard.
+- The SPECTRA mark is treated as a system primitive: the nested spectrum-arc/calibration symbol and custom-spaced wordmark are enlarged in the navigation rail and paired with calibrated hairlines, subtle grid texture, and state-aware glow.
