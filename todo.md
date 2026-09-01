@@ -45,3 +45,11 @@
 - [x] Rebalance visual semantics around cyan RF/DSP, violet AI/ML, and restrained orange attention/CTA accents.
 - [x] Add subtle orbital curves, telemetry-grid texture, integrated mission-control depth, and responsive dark layouts.
 - [x] Verify desktop and mobile screenshots after the visual correction.
+
+## Centralized Analysis Session Integration
+
+- [x] Create an `AnalysisSession` context/store that survives page navigation and mirrors the current analysis lifecycle.
+- [x] Move active file metadata, regions, features, DSP/ML/fusion results, confidence, analyst feedback, report state, and processing status into the shared session.
+- [x] Replace Signals, Features, AI Classification, Confidence, Model Learning, and Reports placeholders with session-driven views and honest empty states.
+- [x] Keep the existing analysis workflow behavior intact while updating the central session after processing, re-analysis, and feedback.
+- [x] Verify session persistence across navigation, local restoration, Supabase persistence hooks, responsive rendering, and production build.
